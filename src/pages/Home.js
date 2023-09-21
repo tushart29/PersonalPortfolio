@@ -2,6 +2,15 @@ import React from 'react';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import EmailIcon from '@mui/icons-material/Email';
+import cplus from '../assets/images/c++.png'
+import css from '../assets/images/css-3.png'
+import flask from '../assets/images/flask.png'
+import html from '../assets/images/html.png'
+import java from '../assets/images/java.png'
+import js from '../assets/images/js.png'
+import python from '../assets/images/python.png'
+import react from '../assets/images/react.png'
+
 import '../styles/Home.css';
 
 function Home() {
@@ -32,22 +41,40 @@ function Home() {
             </div>
             <div className='skills'>
                 <h1>Skills</h1>
-                <ol className='list'>
-                    <li className='item'>
-                        <h2>Front-End </h2>
-                        <span>
-                            ReactJS, HTML, CSS, Bootstrap
-                        </span>
-                    </li>
-                    <li className='item'>
-                        <h2>Back-End </h2>
+                <div className='icon-row'>
+                    <div className='icon-container'>
+                        <img src={react} alt="React" />
+                        <span>React</span>
+                    </div>
+                    <div className='icon-container'>
+                        <img src={python} alt="Python" />
+                        <span>Python</span>
+                    </div>
+                    <div className='icon-container'>
+                        <img src={js} alt="JavaScript" />
+                        <span>JavaScript</span>
+                    </div>
+                    <div className='icon-container'>
+                        <img src={css} alt="CSS" />
+                        <span>CSS</span>
+                    </div>
+                    <div className='icon-container'>
+                        <img src={html} alt="HTML" />
+                        <span>HTML</span>
+                    </div>
+                    <div className='icon-container'>
+                        <img src={java} alt="Java" />
                         <span>Java</span>
-                    </li>
-                    <li className='item'>
-                        <h2>Programming Languages </h2>
-                        <span>Python, JavaScript, C++, Java</span>
-                    </li>
-                </ol>
+                    </div>
+                    <div className='icon-container'>
+                        <img src={cplus} alt="C++" />
+                        <span>C++</span>
+                    </div>
+                    <div className='icon-container'>
+                        <img src={flask} alt="Flask" />
+                        <span>Flask</span>
+                    </div>
+                </div>
             </div>
         </div>
     )

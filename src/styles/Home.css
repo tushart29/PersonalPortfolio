@@ -3,6 +3,7 @@
     align-items: center;
     font-family: "Arial", sans-serif;
     color: black;
+
 }
 
 .about {
@@ -14,7 +15,7 @@
     align-items: center;
     text-align: center;
     background-color: black;
-    color: #f0f0f0;
+    color: white;
 }
 
 .about h2 {
@@ -43,22 +44,46 @@
     font-size: 35px;
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: black;
+
 }
 
 .skills h1 {
-    color: Black;
+    color: black;
+    font-size: 48px;
+    margin-bottom: 20px;
 }
 
-.skills .list {
-    list-style: none;
-    width: 60%;
+.icon-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+    max-width: 800px;
+    flex-wrap: wrap;
 }
 
-.list span {
-    font-size: 20px;
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+}
+
+.icon-container img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.icon-container span {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -83,12 +108,4 @@
     .skills h2 {
         font-size: 30px;
     }
-
-    /* Adjust the margin or padding of the icons */
-    .about a {
-        margin-top: 15px;
-        /* You can adjust this value as needed */
-    }
-
-
 }
