@@ -15,7 +15,7 @@ function Home() {
             <div className='about'>
                 <h2>Hi, My Name is Tushar</h2>
                 <div className='prompt'>
-                    <p>
+                    <p className='aboutMy'>
                         I am studying Computer Science at the University of Washington
                     </p>
                     {/* Add anchor tags for the LinkedIn, GitHub, and Email icons */}

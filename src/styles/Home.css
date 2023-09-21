@@ -86,7 +86,9 @@
 
     /* Adjust the margin or padding of the icons */
     .about a {
-        margin-top: 10px;
+        margin-top: 15px;
         /* You can adjust this value as needed */
     }
+
+
 }
