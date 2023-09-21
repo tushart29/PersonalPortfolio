@@ -83,4 +83,10 @@
     .skills h2 {
         font-size: 30px;
     }
+
+    /* Adjust the margin or padding of the icons */
+    .about a {
+        margin-top: 10px;
+        /* You can adjust this value as needed */
+    }
 }

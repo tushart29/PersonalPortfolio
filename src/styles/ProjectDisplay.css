@@ -20,10 +20,37 @@
 
 .project p {
     font-size: 40px;
-    color: #3e497a;
+    color: black;
 }
 
 .project svg {
     font-size: 60px;
-    color: #3e497a;
+    color: black;
+}
+
+/* Media query for smaller screens (e.g., phones) */
+@media screen and (max-width: 600px) {
+    .project h1 {
+        margin-top: 20px;
+        /* Adjust the margin to move the title down */
+        font-size: 28px;
+        /* Reduce the font size of the title */
+    }
+
+    .project img {
+        width: 100%;
+        /* Make the image take the full width of the container */
+        max-width: 300px;
+        /* Limit the image's maximum width */
+    }
+
+    .project p {
+        font-size: 24px;
+        /* Reduce the font size of skills */
+    }
+
+    .project svg {
+        font-size: 40px;
+        /* Adjust the font size of the GitHub icon */
+    }
 }
