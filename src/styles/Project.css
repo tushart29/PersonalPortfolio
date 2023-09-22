@@ -22,6 +22,7 @@
     place-items: center;
 }
 
+
 /* MENU ITEM STYLING */
 
 .projectItem {
@@ -52,6 +53,7 @@
 .projectItem h1 {
     font-size: 25px;
 }
+
 
 @media only screen and (max-width: 1300px) {
     .projectList {

@@ -23,7 +23,7 @@ export const ProjectList = [
 
     },
     {
-        name: "Libary Appication",
+        name: "Library Appication",
         image: Proj4,
         skills: "C++"
 
