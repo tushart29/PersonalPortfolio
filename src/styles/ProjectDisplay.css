@@ -75,6 +75,10 @@
         /* Adjust padding for a more touch-friendly button size on small screens */
         font-size: 14px;
         /* Further reduce the font size for small screens */
+        /* position: relative;
+        /* Add relative positioning to the button */
+        /* top: -20px;
+        Move the button 10px up */
 
     }
 }
